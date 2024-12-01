@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="col col-2">
+            <!-- buttons user and admin -->
+             
+            <!-- <div class="btn-box">
+                <button class="btn btn-1" id="userButton">User</button>
+                <button class="btn btn-2" id="adminButton">Admin</button>
+            </div> -->
+            <div class="login-form">
+                <div class="form-title">
+                    <span id="Register-head">Registration</span>
+                </div>
+                <div class="form-input">
+ 
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name" required class="input-field">
+                        <i class="bx bx-user icon"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Last Name" required class="input-field">
+                        <i class="bx bx-user icon"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Email" required class="input-field">
+                        <i class="bx bxl-gmail icon"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Contact Number" required class="input-field">
+                        <i class='bx bx-phone icon'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Team Name" required class="input-field">
+                        <i class='bx bxs-group icon'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Addmission Number" required class="input-field">
+                        <i class='bx bx-id-card icon'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Transaction Id" required class="input-field">
+                        <i class='bx bxs-terminal icon'></i>
+                    </div>
+                    
+                        <div class="wrapper">
+                            <input type="radio" name="select" id="option-1" checked>
+                            <input type="radio" name="select" id="option-2">
+                              <label for="option-1" class="option option-1">
+                                <div class="dot"></div>
+                                 <span> Male</span>
+                                 </label>
+                              <label for="option-2" class="option option-2">
+                                <div class="dot"></div>
+                                 <span> Female</span>
+                              </label>
+                           </div>
+
+                            <div class="input-box screenshot">
+                                <label for="file">Upload Screenshot</label>
+                                <input id="file" name="file" type="file" />
+                                <button class="input-submit" onclick="document.getElementById('file').click(); return false;" >Upload</button>
+                                <span id="file-name"></span>
+                                <p id="file-error" style="color: red;"></p>
+                            </div>
+                         
+                        
+                </div>
+                <div class="input-box">
+                    <button class="input-submit">
+                            <span id="submit-final">Register</span>
+                            <i class="bx bx-right-arrow-alt"></i>
+                        
+                    </button>
+                </div>
+                <div class="social-login">
+                    <i class="bx bxl-google"></i>
+                    <i class="bx bxl-facebook"></i>
+                    <i class="bx bxl-github"></i>
+                    <i class="bx bxl-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="control.js"></script>
+</body>
+</html>
