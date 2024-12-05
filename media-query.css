@@ -1,0 +1,26 @@
+@media screen and (max-width: 840px){
+.form-container{
+    height: 800px;
+}
+
+}
+@media screen and (max-width: 614px) {
+    .form-input{
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 601px) {
+    
+    .form-container{
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 500px;
+        /* align-items: center; */
+    }
+    .form-input{
+        width: 220px;
+        flex-direction: row;
+    }
+}
